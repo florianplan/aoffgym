@@ -1,0 +1,14 @@
+{
+  "disciplines": [
+    { "code": "GAM", "libelle": "Gymnastique Artistique Masculine", "abreviation": "GAM" },
+    { "code": "GAF", "libelle": "Gymnastique Artistique Féminine", "abreviation": "GAF" },
+    { "code": "GR", "libelle": "Gymnastique Rythmique", "abreviation": "GR" },
+    { "code": "TRA", "libelle": "Trampoline", "abreviation": "Trampoline" },
+    { "code": "AER", "libelle": "Aérobic", "abreviation": "Aérobic" },
+    { "code": "TG", "libelle": "TeamGym", "abreviation": "TeamGym" },
+    { "code": "PKR", "libelle": "Parkour", "abreviation": "Parkour" },
+    { "code": "GPT", "libelle": "Gym Pour Tous", "abreviation": "GPT" },
+    { "code": "EG", "libelle": "Éveil Gymnique", "abreviation": "Éveil Gym" },
+    { "code": "ACR", "libelle": "Acrobatie", "abreviation": "Acrobatie" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "club": {
+    "id": "CLB-75015-042",
+    "numeroAffiliation": "IDF-75-042",
+    "nom": "Gym'Étoiles Paris 15",
+    "siret": "52845796300012",
+    "adresse": {
+      "rue": "12 rue de la Convention",
+      "codePostal": "75015",
+      "ville": "Paris"
+    },
+    "disciplines": ["GAM", "GAF", "GR", "Éveil Gym"],
+    "saison": "2026-2027",
+    "statutAffiliation": "affilié",
+    "dateAffiliation": "2026-09-01",
+    "comiteRegional": "Île-de-France",
+    "comiteDepartemental": "Paris",
+    "contact": {
+      "email": "contact@gymetoiles.fr",
+      "telephone": "01 45 67 89 00",
+      "siteWeb": "www.gymetoiles.fr"
+    },
+    "dirigeants": {
+      "president": {
+        "nom": "Dupont",
+        "prenom": "Marie",
+        "email": "m.dupont@gymetoiles.fr",
+        "numeroLicence": "2024-IDF-123456"
+      },
+      "tresorier": {
+        "nom": "Lefevre",
+        "prenom": "Pierre",
+        "email": "p.lefevre@gymetoiles.fr",
+        "numeroLicence": "2024-IDF-123457"
+      },
+      "secretaireGeneral": {
+        "nom": "Bernard",
+        "prenom": "Sophie",
+        "email": "s.bernard@gymetoiles.fr",
+        "numeroLicence": "2024-IDF-123458"
+      }
+    },
+    "statistiques": {
+      "nombreLicencies": 247,
+      "nombreLicenciesSaisonPrecedente": 231,
+      "repartitionDisciplines": {
+        "GAM": 68,
+        "GAF": 102,
+        "GR": 45,
+        "Éveil Gym": 32
+      },
+      "preLicencesEnAttente": 12,
+      "decompteEnCours": {
+        "montant": 1850.00,
+        "statut": "en_attente_validation_cr",
+        "nombreLicences": 15
+      }
+    }
+  }
+}

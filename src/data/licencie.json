@@ -1,0 +1,85 @@
+{
+  "licencie": {
+    "id": "LIC-2027-000001",
+    "numeroLicence": "2027-IDF-100001",
+    "nom": "Martin",
+    "prenom": "Lucas",
+    "dateNaissance": "2012-03-15",
+    "age": 14,
+    "email": "lucas.martin@email.fr",
+    "telephone": "06 12 34 56 78",
+    "adresse": {
+      "rue": "45 avenue Victor Hugo",
+      "codePostal": "75016",
+      "ville": "Paris"
+    },
+    "photo": "/assets/licencies/lucas_martin.jpg",
+    "club": {
+      "nom": "Gym'Étoiles Paris 15",
+      "ville": "Paris",
+      "logo": "/assets/clubs/gym_etoiles.png"
+    },
+    "licence": {
+      "saison": "2026-2027",
+      "statut": "valide",
+      "dateValidite": "2027-08-31",
+      "disciplinePrincipale": "GAM",
+      "disciplineSecondaire": null,
+      "fonction": "pratiquant"
+    },
+    "certificatMedical": {
+      "dateValidite": "2027-09-01",
+      "statut": "valide"
+    },
+    "historique": [
+      {
+        "saison": "2025-2026",
+        "club": { "nom": "Gym'Étoiles Paris 15", "ville": "Paris" },
+        "discipline": "GAM",
+        "fonction": "pratiquant",
+        "statut": "validé"
+      },
+      {
+        "saison": "2024-2025",
+        "club": { "nom": "Gym'Étoiles Paris 15", "ville": "Paris" },
+        "discipline": "GAM",
+        "fonction": "pratiquant",
+        "statut": "validé"
+      },
+      {
+        "saison": "2023-2024",
+        "club": { "nom": "Gym'Étoiles Paris 15", "ville": "Paris" },
+        "discipline": "Éveil Gym",
+        "fonction": "pratiquant",
+        "statut": "validé"
+      }
+    ],
+    "competition": {
+      "niveau": "Départemental",
+      "prochaines": [
+        {
+          "nom": "Championnat Départemental GAM",
+          "date": "2027-02-15",
+          "lieu": "Gymnase Pierre de Coubertin, Paris",
+          "agres": ["Sol", "Arçons", "Anneaux", "Saut", "Barres Parallèles", "Barre Fixe"]
+        },
+        {
+          "nom": "Interclubs Paris Sud",
+          "date": "2027-03-22",
+          "lieu": "Complexe sportif Émile Anthoine, Paris 15e",
+          "agres": ["Sol", "Saut", "Barres Parallèles", "Barre Fixe"]
+        }
+      ],
+      "resultats": [
+        {
+          "nom": "Championnat Départemental GAM 2026",
+          "date": "2026-02-10",
+          "classement": "3e",
+          "categorie": "Benjamin"
+        }
+      ]
+    },
+    "formation": [],
+    "badges": []
+  }
+}

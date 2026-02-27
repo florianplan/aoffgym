@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Arial, Helvetica, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  /* === BOUTONS — Charte FFGym === */
+  .btn-primary {
+    @apply bg-ffgym-red text-white font-semibold px-6 py-3 rounded-xl;
+    @apply shadow-ffgym-red transition-all duration-300;
+    @apply hover:bg-[#A00D26] hover:shadow-ffgym-red-lg;
+    @apply active:scale-100;
+    @apply focus:outline-none focus:ring-4 focus:ring-ffgym-red/50 focus:ring-offset-2;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-to-b from-ffgym-gradient-start via-ffgym-gradient-mid to-ffgym-gradient-end text-white font-semibold px-6 py-3 rounded-xl;
+    @apply shadow-ffgym-blue transition-all duration-300;
+    @apply hover:shadow-[0_12px_48px_-10px_rgba(0,43,85,0.35)];
+  }
+
+  .btn-outline {
+    @apply bg-white text-ffgym-red font-semibold px-6 py-3 rounded-xl border-2 border-ffgym-red transition-all duration-300;
+    @apply hover:bg-ffgym-red/5;
+  }
+
+  .btn-ghost {
+    @apply text-ffgym-blue font-semibold px-6 py-3 rounded-xl transition-all duration-300;
+    @apply hover:bg-slate-100 active:bg-slate-200;
+  }
+
+  .btn-white {
+    @apply bg-white text-ffgym-red font-semibold px-6 py-3 rounded-xl;
+    @apply hover:bg-white/90 transition-colors;
+  }
+
+  .btn-glass {
+    @apply bg-white/20 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-xl;
+    @apply border border-white/30 hover:bg-white/30 transition-colors;
+  }
+
+  /* === CARTES — Charte FFGym === */
+  .card {
+    @apply bg-white rounded-2xl shadow-card p-6 border border-slate-100 transition-all duration-300;
+    @apply hover:shadow-card-hover;
+  }
+
+  .card-glass {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-card p-6 border border-white/50;
+    @apply transition-all duration-300 hover:shadow-card-hover hover:scale-[1.02];
+  }
+
+  .card-gradient {
+    @apply relative bg-gradient-to-b from-ffgym-gradient-start via-ffgym-gradient-mid to-ffgym-gradient-end rounded-2xl shadow-ffgym-blue p-8 overflow-hidden text-white;
+  }
+
+  /* === INPUTS === */
+  .input-base {
+    @apply w-full px-5 py-3.5 bg-slate-50 border-2 border-slate-200 rounded-xl text-slate-900 font-medium;
+    @apply placeholder:text-slate-400 transition-all duration-300;
+    @apply focus:border-ffgym-blue focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,43,85,0.08)] focus:outline-none;
+    @apply disabled:bg-slate-100 disabled:text-slate-400 disabled:cursor-not-allowed;
+  }
+
+  .input-error {
+    @apply bg-rose-50 border-rose-300 focus:border-rose-500 focus:shadow-[0_0_0_4px_rgba(244,63,94,0.1)];
+  }
+
+  .select-base {
+    @apply w-full px-5 py-3.5 bg-slate-50 border-2 border-slate-200 rounded-xl text-slate-900 font-medium;
+    @apply transition-all duration-300 cursor-pointer appearance-none;
+    @apply focus:border-ffgym-blue focus:bg-white focus:shadow-[0_0_0_4px_rgba(0,43,85,0.08)] focus:outline-none;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNiA5TDEyIDE1TDE4IDkiIHN0cm9rZT0iIzY0NzQ4QiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+  }
+
+  /* === BADGES === */
+  .badge {
+    @apply px-4 py-2 text-xs font-bold rounded-full inline-flex items-center gap-2;
+  }
+
+  .badge-success {
+    @apply bg-emerald-500/10 text-emerald-600;
+  }
+
+  .badge-warning {
+    @apply bg-amber-500/10 text-amber-600;
+  }
+
+  .badge-error {
+    @apply bg-rose-500/10 text-rose-600;
+  }
+
+  .badge-info {
+    @apply bg-cyan-500/10 text-cyan-600;
+  }
+
+  .badge-violet {
+    @apply bg-violet-500/10 text-violet-600;
+  }
+
+  .badge-discipline {
+    @apply bg-ffgym-blue/10 text-ffgym-blue;
+  }
+
+  .badge-neutral {
+    @apply bg-slate-200 text-slate-500;
+  }
+
+  .badge-danger {
+    @apply bg-red-500/10 text-red-600;
+  }
+
+  /* === DÉGRADÉS — Charte FFGym === */
+  .gradient-ffgym-blue {
+    background: linear-gradient(180deg, #0055A4 0%, #003A6E 45%, #001C38 100%);
+  }
+
+  .gradient-hero {
+    @apply bg-gradient-to-b from-ffgym-gradient-start via-ffgym-gradient-mid to-ffgym-gradient-end;
+  }
+
+  /* === TITRES === */
+  .title-hero {
+    @apply text-5xl font-bold leading-none text-white;
+  }
+
+  .title-section {
+    @apply text-4xl font-bold leading-tight;
+  }
+
+  .title-card {
+    @apply text-xl font-semibold;
+  }
+
+  .title-page {
+    @apply text-3xl font-bold text-slate-900;
+  }
+
+  /* === FORMES DÉCORATIVES === */
+  .blob-decoration {
+    @apply absolute rounded-full blur-3xl pointer-events-none;
+  }
+
+  /* === AVATAR === */
+  .avatar {
+    @apply rounded-full bg-ffgym-blue flex items-center justify-center text-white font-bold;
+  }
+
+  .avatar-sm {
+    @apply w-10 h-10 text-sm;
+  }
+
+  .avatar-md {
+    @apply w-12 h-12 text-base;
+  }
+
+  .avatar-lg {
+    @apply w-14 h-14 text-lg;
+  }
+
+  .avatar-xl {
+    @apply w-20 h-20 text-2xl;
+  }
+
+  /* === KPI CARD === */
+  .kpi-card {
+    @apply relative bg-white rounded-2xl shadow-card p-6 overflow-hidden;
+    @apply hover:shadow-[0_10px_40px_-10px_rgba(200,16,46,0.15)] transition-all duration-300;
+  }
+
+  .kpi-card::before {
+    content: '';
+    @apply absolute top-0 left-0 right-0 h-1 bg-ffgym-red;
+  }
+
+  /* === MODALE === */
+  .modal-overlay {
+    @apply fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center z-50;
+  }
+
+  .modal-content {
+    @apply relative bg-white rounded-2xl shadow-modal w-full max-w-lg mx-4 overflow-hidden animate-scale-in;
+  }
+
+  .modal-accent {
+    @apply absolute top-0 left-0 right-0 h-1 bg-ffgym-red;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-ffgym-red to-ffgym-blue;
+  }
+
+  /* RGAA : masquer visuellement tout en restant accessible au lecteur d'écran */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+  }
+
+  .focus\:not-sr-only:focus {
+    @apply w-auto h-auto p-2 overflow-visible whitespace-normal static;
+    clip: auto;
+    clip-path: none;
+  }
+
+  /* Focus visible renforcé pour RGAA (contraste suffisant) */
+  .focus-ring-rgaa:focus {
+    @apply outline-none ring-4 ring-ffgym-blue ring-offset-2 ring-offset-white;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "alertes": [
+    {
+      "id": "ALT-001",
+      "type": "warning",
+      "priorite": "haute",
+      "titre": "Certificats médicaux à renouveler",
+      "message": "3 certificats médicaux expirent dans les 30 prochains jours",
+      "action": {
+        "label": "Voir les licenciés concernés",
+        "route": "/club/licencies?filtre=certificat_expire_bientot"
+      },
+      "date": "2027-01-15"
+    },
+    {
+      "id": "ALT-002",
+      "type": "info",
+      "priorite": "moyenne",
+      "titre": "Ré-affiliation ouverte",
+      "message": "La ré-affiliation pour la saison 2027-2028 est ouverte depuis le 1er juillet",
+      "action": {
+        "label": "Démarrer la ré-affiliation",
+        "route": "/club/reaffiliation"
+      },
+      "date": "2027-07-01"
+    },
+    {
+      "id": "ALT-003",
+      "type": "success",
+      "priorite": "basse",
+      "titre": "Décompte validé",
+      "message": "Votre décompte #DC-2027-042 a été validé par le Comité Régional",
+      "action": {
+        "label": "Voir le décompte",
+        "route": "/club/decomptes/DC-2027-042"
+      },
+      "date": "2027-01-10"
+    }
+  ]
+}

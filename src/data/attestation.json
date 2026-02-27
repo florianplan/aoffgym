@@ -1,0 +1,38 @@
+{
+  "attestation": {
+    "titre": "ATTESTATION DE LICENCE",
+    "sousTitre": "Fédération Française de Gymnastique",
+    "saison": "2026-2027",
+    "dateGeneration": "2027-01-20",
+    "licencie": {
+      "photo": "/assets/licencies/lucas_martin.jpg",
+      "nom": "MARTIN",
+      "prenom": "Lucas",
+      "dateNaissance": "15/03/2012",
+      "numeroLicence": "2027-IDF-100001"
+    },
+    "club": {
+      "nom": "Gym'Étoiles Paris 15",
+      "numeroAffiliation": "IDF-75-042",
+      "ville": "Paris"
+    },
+    "disciplines": ["Gymnastique Artistique Masculine"],
+    "validite": {
+      "du": "01/09/2026",
+      "au": "31/08/2027"
+    },
+    "assurance": {
+      "compagnie": "MMA Sports",
+      "numeroContrat": "120.987.654",
+      "type": "Individuelle Accident"
+    },
+    "qrCode": {
+      "data": "https://ffgym.fr/licence/verify/2027-IDF-100001",
+      "description": "Scanner pour vérifier l'authenticité"
+    },
+    "footer": {
+      "adresse": "Fédération Française de Gymnastique - 7 ter, Cour des Petites Écuries - 75010 Paris",
+      "contact": "www.ffgym.fr"
+    }
+  }
+}

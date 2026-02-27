@@ -1,0 +1,49 @@
+{
+  "preLicenceSaisie": {
+    "nom": "Martin",
+    "prenom": "Luca",
+    "dateNaissance": "2012-03-15",
+    "email": "luca.martin.new@email.fr",
+    "disciplinePrincipale": "GAM"
+  },
+  "doublonDetecte": {
+    "score": 0.92,
+    "raison": "Similarité phonétique (Soundex) sur nom/prénom + date de naissance identique",
+    "licencieExistant": {
+      "numeroLicence": "2027-IDF-100001",
+      "nom": "Martin",
+      "prenom": "Lucas",
+      "dateNaissance": "2012-03-15",
+      "clubActuel": "Gym'Étoiles Paris 15",
+      "disciplinePrincipale": "GAM",
+      "statut": "valide"
+    }
+  },
+  "optionsProposees": [
+    {
+      "id": "mutation",
+      "label": "Créer une mutation",
+      "description": "Ce licencié rejoindra votre club (nécessite validation régionale)",
+      "disponible": false,
+      "raison": "Le licencié est déjà dans votre club"
+    },
+    {
+      "id": "licence_secondaire",
+      "label": "Créer une licence secondaire",
+      "description": "Le licencié sera rattaché à un second club",
+      "disponible": true
+    },
+    {
+      "id": "renouvellement",
+      "label": "Renouveler cette licence",
+      "description": "Renouveler la licence existante pour la saison 2026-2027",
+      "disponible": true
+    },
+    {
+      "id": "invalider_doublon",
+      "label": "Ce n'est pas la même personne",
+      "description": "Confirmer la création malgré la similarité",
+      "disponible": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "licencies": [
+    {
+      "id": "LIC-2027-000001",
+      "numeroLicence": "2027-IDF-100001",
+      "nom": "Martin",
+      "prenom": "Lucas",
+      "dateNaissance": "2012-03-15",
+      "email": "lucas.martin@email.fr",
+      "telephone": "06 12 34 56 78",
+      "adresse": {
+        "rue": "45 avenue Victor Hugo",
+        "codePostal": "75016",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/lucas_martin.jpg",
+      "disciplinePrincipale": "GAM",
+      "disciplineSecondaire": null,
+      "fonction": "pratiquant",
+      "statut": "valide",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": "2027-09-01",
+        "statut": "valide"
+      },
+      "historique": [
+        { "saison": "2025-2026", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2024-2025", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2023-2024", "club": "Gym'Étoiles Paris 15", "discipline": "Éveil Gym", "statut": "validé" }
+      ]
+    },
+    {
+      "id": "LIC-2027-000002",
+      "numeroLicence": "2027-IDF-100002",
+      "nom": "Petit",
+      "prenom": "Emma",
+      "dateNaissance": "2010-07-22",
+      "email": "emma.petit@email.fr",
+      "telephone": "06 98 76 54 32",
+      "adresse": {
+        "rue": "8 rue du Commerce",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/emma_petit.jpg",
+      "disciplinePrincipale": "GAF",
+      "disciplineSecondaire": "GR",
+      "fonction": "pratiquant",
+      "statut": "valide",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": "2027-06-15",
+        "statut": "valide"
+      },
+      "historique": [
+        { "saison": "2025-2026", "club": "Gym'Étoiles Paris 15", "discipline": "GAF", "statut": "validé" },
+        { "saison": "2024-2025", "club": "US Ivry Gym", "discipline": "GAF", "statut": "validé" }
+      ]
+    },
+    {
+      "id": "LIC-2027-000003",
+      "numeroLicence": "2027-IDF-100003",
+      "nom": "Dubois",
+      "prenom": "Thomas",
+      "dateNaissance": "2008-11-03",
+      "email": "thomas.dubois@email.fr",
+      "telephone": "07 11 22 33 44",
+      "adresse": {
+        "rue": "22 boulevard Pasteur",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/thomas_dubois.jpg",
+      "disciplinePrincipale": "GAM",
+      "disciplineSecondaire": "Trampoline",
+      "fonction": "pratiquant",
+      "statut": "valide",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": "2027-09-01",
+        "statut": "valide"
+      },
+      "historique": [
+        { "saison": "2025-2026", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2024-2025", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2023-2024", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2022-2023", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" }
+      ]
+    },
+    {
+      "id": "LIC-2027-000004",
+      "numeroLicence": "2027-IDF-100004",
+      "nom": "Moreau",
+      "prenom": "Chloé",
+      "dateNaissance": "2014-05-18",
+      "email": "chloe.moreau@email.fr",
+      "telephone": "06 55 44 33 22",
+      "adresse": {
+        "rue": "3 rue Lecourbe",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/chloe_moreau.jpg",
+      "disciplinePrincipale": "GR",
+      "disciplineSecondaire": null,
+      "fonction": "pratiquant",
+      "statut": "en_attente",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": null,
+        "statut": "manquant"
+      },
+      "historique": []
+    },
+    {
+      "id": "LIC-2027-000005",
+      "numeroLicence": "2027-IDF-100005",
+      "nom": "Garcia",
+      "prenom": "Antoine",
+      "dateNaissance": "1985-02-28",
+      "email": "antoine.garcia@email.fr",
+      "telephone": "06 77 88 99 00",
+      "adresse": {
+        "rue": "17 rue de Vaugirard",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/antoine_garcia.jpg",
+      "disciplinePrincipale": "GAM",
+      "disciplineSecondaire": null,
+      "fonction": "encadrant",
+      "statut": "valide",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": "2027-09-01",
+        "statut": "valide"
+      },
+      "diplomes": [
+        { "type": "CQP", "intitule": "Animateur de Loisirs Sportifs - Activités Gymniques", "dateObtention": "2018-06-15" },
+        { "type": "Fédéral", "intitule": "Moniteur Fédéral GAM Niveau 2", "dateObtention": "2020-03-10" }
+      ],
+      "historique": [
+        { "saison": "2025-2026", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "fonction": "encadrant", "statut": "validé" },
+        { "saison": "2024-2025", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "fonction": "encadrant", "statut": "validé" }
+      ]
+    },
+    {
+      "id": "LIC-2027-000006",
+      "numeroLicence": null,
+      "nom": "Rousseau",
+      "prenom": "Léa",
+      "dateNaissance": "2015-09-10",
+      "email": "lea.rousseau@email.fr",
+      "telephone": "06 11 22 33 44",
+      "adresse": {
+        "rue": "9 rue Cambronne",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": null,
+      "disciplinePrincipale": "Éveil Gym",
+      "disciplineSecondaire": null,
+      "fonction": "pratiquant",
+      "statut": "pre_licence",
+      "saison": "2026-2027",
+      "certificatMedical": {
+        "dateValidite": null,
+        "statut": "manquant"
+      },
+      "historique": []
+    },
+    {
+      "id": "LIC-2025-EXPIRE",
+      "numeroLicence": "2025-IDF-098765",
+      "nom": "Leroy",
+      "prenom": "Maxime",
+      "dateNaissance": "2011-12-05",
+      "email": "maxime.leroy@email.fr",
+      "telephone": "06 99 88 77 66",
+      "adresse": {
+        "rue": "28 rue de la Croix-Nivert",
+        "codePostal": "75015",
+        "ville": "Paris"
+      },
+      "photo": "/assets/licencies/maxime_leroy.jpg",
+      "disciplinePrincipale": "GAM",
+      "disciplineSecondaire": null,
+      "fonction": "pratiquant",
+      "statut": "expire",
+      "saison": "2025-2026",
+      "certificatMedical": {
+        "dateValidite": "2026-09-01",
+        "statut": "expiré"
+      },
+      "historique": [
+        { "saison": "2025-2026", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" },
+        { "saison": "2024-2025", "club": "Gym'Étoiles Paris 15", "discipline": "GAM", "statut": "validé" }
+      ]
+    }
+  ]
+}
